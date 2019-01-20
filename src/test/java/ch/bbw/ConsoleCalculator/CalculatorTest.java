@@ -36,7 +36,10 @@ public class CalculatorTest {
 	    ArrayList emptyList = new ArrayList();
 	    Object o = emptyList.get(0);
 	}
-
+	@Test(expected = ArithmeticException.class)
+    public void testSummeOverflow() {
+        assertEquals((long) Integer.MAX_VALUE + 1, testee.sum(Integer.MAX_VALUE, 1));
+    }
 	@Test
 	public void testSumme1PositiveUnd1NegativeIsOk(){
 		assertTrue(testee.summe(25,  -10) == 15);
