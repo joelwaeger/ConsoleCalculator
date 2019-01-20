@@ -1,16 +1,76 @@
 -------------------------------------------------------------------------------
 Test set: ch.bbw.ConsoleCalculator.CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ch.bbw.ConsoleCalculator.CalculatorTest
-initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0.001 s  <<< ERROR!
+Tests run: 24, Failures: 0, Errors: 24, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in ch.bbw.ConsoleCalculator.CalculatorTest
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSubtractionNullIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSubtractionUeberMax_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testDivisionMax_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSubtraction1PositiveUnd1NegativeIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSummeMax_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSummeNullIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSubtractionUnterMin_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSubtractionNegativesResultatIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
 java.lang.Exception: Method testSummeZweiPositiveIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSummeUeberMax_ValueIsOk should have no parameters
 
 initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
 java.lang.Exception: Method testSubtractionZweiPositiveIsOk should have no parameters
 
 initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSubtractionMax_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
 java.lang.Exception: Method testSumme1PositiveUnd1NegativeIsOk should have no parameters
 
 initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSummeUnterMin_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testDivision1PositiveUnd1NegativeIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testDivisionMin_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSummeMin_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSummeNegativesResultatIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSubtractionMin_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testDivisionUeberMax_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testDivisionNullIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.Exception: Method testDivisionZweiPositiveIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testDivisionUnterMin_ValueIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testDivisionNegativesResultatIsOk should have no parameters
 
