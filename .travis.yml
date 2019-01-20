@@ -1,3 +1,10 @@
 language: java
 sudo: false
 script: mvn install
+deploy:
+  provider: releases
+  api_key:
+    secure: WZI29fAfk+AFzYfgN9pgPJNV1A2o84wv6f2xPoibvpXoXZjJJGssUrRKdQwjoU+wCff0riGesSqySa3S5e6fVrkSmFcUOFv6aa5XgKL596gEM/efOFq+lTEAh42eGYGRK1GFBpXFat99ZBAxt9bWbG2JyDBoGarjEM4KemiHeQJdPu+JaOQO/33Uo0BH/+m5HOjt6JxaAPjaleI/to3rfUBombLnTOtdlB8NSp9JJjLToT0qAyYQ1dq91rItImumVVFtJsbmQ4MdUwcQDyJ1wIbD2SNHwiDAkbZQuUypUsW0w2gxPyPAx41bORdEIdpgm+/D3gy/PuG2g2Ioot5n1jUlvN13EvBb3PnSBGqRWYScQPJMEifo8CDyo8NoN5OCSF4Yu1hWesdKN9iT9nEjIgjmrHgRoTQGGh0DuB7g3lLYFdSX9Bmb4l1Ky1hYTKATPrlXWXB//bJYdxRGZXXsN3VCRvP0RUMtBZQGSCjRxJSHaHlLbF+KGsCYxbii/E7luv4aE0Qu2RDxANKAs1B4r/0ohuuphdwmimrAS24v3Ovluh/Zg5DWUo298QmX9wwNaxEjYRgzB5A57xqDVF9TAoX7ejpVxrvAenOh0Zxe/0afafnFf7kVVE5GG33q3S02Gl5uFERzUfWP8+rk8FlA21Cm5C/oZkc4tIo2B6rVLsY=
+  file: "/home/travis/.m2/repository/ch/bbw/ConsoleCalculator/0.0.1-SNAPSHOT/ConsoleCalculator-0.0.1-SNAPSHOT.jar"
+  on:
+    repo: joelwaeger/ConsoleCalculator
