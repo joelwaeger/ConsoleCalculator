@@ -2,6 +2,8 @@ package ch.bbw.ConsoleCalculator;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -30,5 +32,16 @@ public class CalculatorTest {
 		testee = new Calculator();
 		assertTrue(testee.subtraction(25,  10) == 15);
 	}
-	
+	@Test(expected=IndexOutOfBoundsException.class)
+	public void testIndexOutOfBoundsException() {
+	    ArrayList emptyList = new ArrayList();
+	    Object o = emptyList.get(0);
+	}
+	@Test
+	public void testIndexOutOfBoundsExceptionNotRaised() 
+	    throws IndexOutOfBoundsException {
+	 
+	    ArrayList emptyList = new ArrayList();
+	    Object o = emptyList.get(0);
+	}
 }
