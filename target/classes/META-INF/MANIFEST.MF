@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: joￃﾫlWￃﾤger
+Built-By: joëlWäger
 Build-Jdk: 1.8.0_191
 Created-By: Maven Integration for Eclipse
 Main-Class: ch.bbw.ConsoleCalculator.App
