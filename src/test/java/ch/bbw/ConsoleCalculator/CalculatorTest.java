@@ -20,6 +20,7 @@ public class CalculatorTest {
 	public void testSummeZweiPositiveIsOk(Calculator testee) {
 		testee = new Calculator();
 		assertTrue(testee.summe(10,25) == 35);
+		
 	}
 	
 	@Test
@@ -43,5 +44,10 @@ public class CalculatorTest {
 	 
 	    ArrayList emptyList = new ArrayList();
 	    Object o = emptyList.get(0);
+	}
+	@Test
+	public void testSumme1PositiveUnd1NegativeIsOk(Calculator testee){
+		testee = new Calculator();
+		assertTrue(testee.subtraction(25,  -10) == 15);
 	}
 }
