@@ -116,40 +116,5 @@ public class CalculatorTest {
 		testee = new Calculator();
 		assertTrue(testee.subtraction(10,  -10) == 0);
 	}
-	//Division
-	@Test
-	public void testDivision1PositiveUnd1NegativeIsOk(Calculator testee){
-		testee = new Calculator();
-		assertTrue(testee.division(25,  -10) == 15);
-	}
-	@Test
-	public void testDivisionNegativesResultatIsOk(Calculator testee){
-		testee = new Calculator();
-		assertTrue(testee.division(5,  -10) == -5);
-	}
-	@Test
-	public void testDivisionNullIsOk(Calculator testee){
-		testee = new Calculator();
-		assertTrue(testee.division(10,  -10) == 0);
-	}
-	@Test
-	public void testDivisionMax_ValueIsOk(Calculator testee){
-		testee = new Calculator();
-		assertTrue(testee.division(Integer.MAX_VALUE, 1) == -2147483647);
-	}
-	@Test
-	public void testDivisionMin_ValueIsOk(Calculator testee){
-		testee = new Calculator();
-		assertTrue(testee.division(Integer.MIN_VALUE, 1) == -2147483647);
-	}
-	@Test
-	public void testDivisionUeberMax_ValueIsOk(Calculator testee){
-		testee = new Calculator();
-		assertTrue(testee.division(10,  -10) == 0);
-	}
-	@Test
-	public void testDivisionUnterMin_ValueIsOk(Calculator testee){
-		testee = new Calculator();
-		assertTrue(testee.division(10,  -10) == 0);
-	}
+
 }
