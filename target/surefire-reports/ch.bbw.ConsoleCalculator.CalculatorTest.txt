@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: ch.bbw.ConsoleCalculator.CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ch.bbw.ConsoleCalculator.CalculatorTest
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ch.bbw.ConsoleCalculator.CalculatorTest
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Exception: Method testSummeZweiPositiveIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSubtractionZweiPositiveIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testSumme1PositiveUnd1NegativeIsOk should have no parameters
+
+initializationError(ch.bbw.ConsoleCalculator.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method testDivisionZweiPositiveIsOk should have no parameters
+
